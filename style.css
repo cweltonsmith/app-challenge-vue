@@ -1,0 +1,149 @@
+  /*This is to hide the arrows/spinners on the number input fields*/
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+  }
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+  
+  a:link:hover{
+    color: rgb(146, 230, 11) !important;
+  }
+  
+  body {
+    padding-top: 5rem;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  
+  footer{
+    color: rgb(146, 230, 11);
+  }
+  
+  img.rounded-corners{
+    border-radius: 50%;
+  } 
+  
+  table{
+    border-radius: 2em;
+    overflow: hidden !important;
+    border-collapse: collapse !important;
+  }
+  
+  table td, tr{
+    color: rgb(146, 230, 11)
+  
+  }
+  
+  section {
+    margin: 1rem;
+    padding: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: rgba(100, 100, 100, 0.85);
+    border-radius: 2em;
+  }
+  
+  .navbar{
+    background-color: transparent; 
+  }
+  
+  .navbar a,button,input {
+    color: rgb(146, 230, 11) !important;
+  }
+  
+  .bgimg {
+    background-color: rgb(48, 47, 47);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    
+  }
+  
+  #app {
+    background: rgb(100, 100, 100, .85);
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 2em;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center 
+  }
+  
+  #app textarea {
+    width: 100%;
+    border: 1px solid rgb(146, 230, 11);
+    background: rgb(100, 100, 100, .85);
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 2em;
+  }
+  
+  #app button[type="submit"] {
+    width: 25%;
+    border: 1px solid  rgb(146, 230, 11);
+    background: rgb(100, 100, 100, .85);
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 2em;
+  }
+  
+  #app button[type="submit"]:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #646464;
+  }
+  
+  #app input[type="text"]:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #646464;
+  }
+  
+  input{
+    margin: 1rem;
+    padding: .3rem;
+    border-radius: 2em;
+    width: 100%;
+    border: 1px solid rgb(146, 230, 11);
+    background: rgb(100, 100, 100, .85);
+  }
+  
+  #app h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .text-field{
+    width: 150px;
+  }
+  
+  /*Used awesome fonts to make the social icons*/
+  .fa {
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+  
